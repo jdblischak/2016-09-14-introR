@@ -741,12 +741,14 @@ ul {
   list-style-position: inside;
   list-style: disc;
   padding-left: 20px;
+  font-size: 22px;
 }
 
 ol {
   list-style-position: inside;
   list-style: decimal;
   padding-left: 3px;
+  font-size: 22px;
 }
 
 dl dd {
