@@ -474,9 +474,9 @@ header h1 {
 header h2 {
 /*  width: 540px; */
   width: 1080px;
-  margin-top: 0;
+  margin-top: 0.4em;
   margin-bottom: 0;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: normal;
   line-height: 1.3;
   color: #9ddcff;
@@ -588,10 +588,10 @@ ul, ol, dl {
 
 hr {
   height: 0;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   border: 0;
-  border-top: solid 1px #ddd;
+  border-top: solid 3px #ddd;
 }
 
 table {
@@ -639,7 +639,7 @@ form {
 #main-content h2 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 22px;
+  font-size: 36px;
   font-weight: bold;
   color: #474747;
   text-indent: 4px;
@@ -647,6 +647,7 @@ form {
 #main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
+  margin-top: 0.4em;
   content: "//";
   color: #9ddcff;
 }
@@ -655,7 +656,7 @@ form {
   margin-top: 24px;
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
@@ -714,6 +715,11 @@ h6:before {
 
 p {
   margin-bottom: 20px;
+  font-size: 18px;
+}
+
+table {
+    font-size: 18px;
 }
 
 a {
