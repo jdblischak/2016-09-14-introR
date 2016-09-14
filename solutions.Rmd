@@ -6,6 +6,8 @@ output:
     toc_depth: 4
 ---
 
+**[Back to main page](index.html)**
+
 ## Lesson 01: Analyzing Patient Data
 
 ### Slicing (Subsetting) Data
@@ -269,3 +271,5 @@ analyze <- function(filename, output = NULL) {
   }
 }
 ```
+
+**[Back to main page](index.html)**

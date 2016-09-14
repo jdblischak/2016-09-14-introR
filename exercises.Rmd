@@ -5,6 +5,8 @@ output:
     toc: true
 ---
 
+**[Back to main page](index.html)**
+
 ## Lesson 01: Analyzing Patient Data
 
 ### Slicing (Subsetting) Data
@@ -135,3 +137,5 @@ plot_dist(dat[1:5, 10], threshold = 10)  # samples (rows) 1-5 on day (column) 10
 One of your collaborators asks if you can recreate the figures with lines instead of points.
 Find the relevant argument to `plot` by reading the documentation (`?plot`),
 update `analyze`, and then recreate all the figures with `analyze_all`.
+
+**[Back to main page](index.html)**
